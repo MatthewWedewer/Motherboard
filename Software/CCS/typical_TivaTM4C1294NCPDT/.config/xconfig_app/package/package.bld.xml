@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/app_pem4f.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"/>
+        <srcFile name="C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/app_pem4f.cfg"
         xCfgPrefix="package/cfg/app_pem4f"
-        cfgScript="C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"
+        cfgScript="C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/app_pem4f.cfg"
         xCfgPrefix="package/cfg/app_pem4f"
-        cfgScript="C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"
+        cfgScript="C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg"
         cfgArgs="null"
         />
     </executables>

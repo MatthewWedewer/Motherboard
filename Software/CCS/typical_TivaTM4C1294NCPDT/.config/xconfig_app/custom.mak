@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/app_pem4f.xdl
-	$(SED) 's"^\"\(package/cfg/app_pem4fcfg.cmd\)\"$""\"C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/.config/xconfig_app/\1\""' package/cfg/app_pem4f.xdl > $@
+	$(SED) 's"^\"\(package/cfg/app_pem4fcfg.cmd\)\"$""\"C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/.config/xconfig_app/\1\""' package/cfg/app_pem4f.xdl > $@
 	-$(SETDATE) -r:max package/cfg/app_pem4f.h compiler.opt compiler.opt.defs

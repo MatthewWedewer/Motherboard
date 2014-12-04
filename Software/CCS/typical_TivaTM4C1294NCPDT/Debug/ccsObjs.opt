@@ -1,1 +1,1 @@
--l"./configPkg/linker.cmd" "./main.obj" "../tm4c1294ncpdt.cmd" -l"libc.a" 
+-l"./configPkg/linker.cmd" "./main.obj" "./tasks/Command.obj" "./tasks/Telemetry.obj" "../tm4c1294ncpdt.cmd" -l"libc.a" 

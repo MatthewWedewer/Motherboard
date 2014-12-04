@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg',
+        cfgScript: 'C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg',
         profile: 'release',
         cfgHome: 'xconfig_app',
 });
@@ -40,8 +40,8 @@ else {
 }
 
 var thisObj = {
-    cfg:        'C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg',
-    outputPath: 'C:/Users/MST-MRDT TELECON/Documents/GitHub/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/.config/xconfig_app',
+    cfg:        'C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/app.cfg',
+    outputPath: 'C:/Users/Connor/Documents/Rover/Motherboard/Software/CCS/typical_TivaTM4C1294NCPDT/.config/xconfig_app',
     exeName:    'app' + suffix,
     exeIntName: 'app' + suffix.replace('.', '_'),
     targ:       targ,
