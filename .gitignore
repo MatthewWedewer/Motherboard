@@ -38,10 +38,11 @@
 *.epf
 
 # Ignore build files
-Software/CCS/Debug/
-Software/CCS/Release/
-Software/CCS/.launches/
-Software/CCS/.config/
+Software/CCS/RoveWare/Debug/*
+Software/CCS/RoveWare/Release/*
+Software/CCS/RoveWare/.launches/*
+Software/CCS/RoveWare/.config/*
+Software/CCS/.metadata/*
 
 # Ignore Windows .db files
 *.db
