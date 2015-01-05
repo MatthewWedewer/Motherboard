@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\typical_TivaTM4C1294NCPDT\app.cfg
+#     C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\RoveWare\app.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\typical_TivaTM4C1294NCPDT\src
+#    C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\RoveWare\src
 #
 GEN_SRC_DIR ?= ../src
 

@@ -9,10 +9,10 @@
  */
 
 
--l"C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\typical_TivaTM4C1294NCPDT\Debug\configPkg\package\cfg\app_pem4f.oem4f"
+-l"C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\RoveWare\Debug\configPkg\package\cfg\app_pem4f.oem4f"
 -l"C:\ti\tirtos_tivac_2_01_00_03\packages\ti\drivers\lib\instrumented\gpio_tivaware.aem4f"
 -l"C:\ti\tirtos_tivac_2_01_00_03\packages\ti\drivers\lib\instrumented\uart_tivaware.aem4f"
--l"C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\typical_TivaTM4C1294NCPDT\src\sysbios\sysbios.aem4f"
+-l"C:\Users\Connor\Documents\Rover\Motherboard\Software\CCS\RoveWare\src\sysbios\sysbios.aem4f"
 -l"C:\ti\tirtos_tivac_2_01_00_03\products\bios_6_40_03_39\packages\ti\catalog\arm\cortexm4\tiva\ce\lib\Boot.aem4f"
 -l"C:\ti\tirtos_tivac_2_01_00_03\products\bios_6_40_03_39\packages\ti\targets\arm\rtsarm\lib\ti.targets.arm.rtsarm.aem4f"
 -l"C:\ti\tirtos_tivac_2_01_00_03\products\bios_6_40_03_39\packages\ti\targets\arm\rtsarm\lib\boot.aem4f"
