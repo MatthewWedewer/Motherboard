@@ -56,6 +56,8 @@
 /* Example/Board Header files */
 #include "Board.h"
 
+//#include "networkRove.h"
+
 //#define TCPPACKETSIZE 1024
 //#define TCPPORT 1000
 //#define NUMTCPWORKERS 3
@@ -78,7 +80,7 @@
     System_printf("tcpWorker: start clientfd = 0x%x\n", clientfd);
 
     /* Make sure Error_Block is initialized */
-    Error_init(&eb);
+   // Error_init(&eb);
 
     /* Get a buffer to receive incoming packets. Use the default heap.
     buffer = Memory_alloc(NULL, TCPPACKETSIZE, 0, &eb);
@@ -173,7 +175,7 @@
         System_printf("tcpHandler: Creating thread clientfd = %d\n", clientfd);
 
         /* Init the Error_Block */
-        Error_init(&eb);
+       // Error_init(&eb);
 
         /* Initialize the defaults and set the parameters.
         Task_Params_init(&taskParams);

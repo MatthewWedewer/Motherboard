@@ -5,8 +5,13 @@
  *      Author: me
  */
 
+#include "networkRove.h"
+
 Void networkFncRove(UArg arg0, UArg arg1)
 {
+
+
+	System_printf("Starting networkFncRove\n");
 
 	//handle to our networkFncRove to allow file descriptors in this thread
     fdOpenSession(TaskSelf());
@@ -32,7 +37,7 @@ Void networkFncRove(UArg arg0, UArg arg1)
     bind_status = bind(listen_socket, (struct sockaddr *)&sLocalAddr, sizeof(sLocalAddr));
     if (bind_status < 0) {
     	System_printf("Socket bind failed\n");
-        fdClose(clientfd);
+        fdClose(listen_socket);
         Task_exit();
         return;
     }//endif
@@ -55,14 +60,16 @@ Void networkFncRove(UArg arg0, UArg arg1)
     }//endif
 
 	//initialize buffer and set contents to zero
-	char tcp_recv_buffer[RECV_BUFFER_SIZE] = "";
+	char tcp_recv_buffer[RECV_BUFFER_SIZE];
 	int num_bytes_recvd = 0;
-	bool recvFlag = TRUE;
-	bool connectedFlag = FALSE;
+	bool recvFlag = true;
+	bool connectedFlag = false;
 	SOCKET clientfd;
+	struct sockaddr_in client_addr;
+	int addrlen=sizeof(client_addr);
 
 	/* Loop Forever */
-	while (TRUE) {
+	while (true) {
 
 		//try to connect
 		clientfd = accept(listen_socket, (struct sockaddr*)&client_addr, &addrlen);
@@ -72,7 +79,7 @@ Void networkFncRove(UArg arg0, UArg arg1)
 		}//endwhile
 
 		//we are connected
-		connectedFlag = TRUE;
+		connectedFlag = true;
 
 		/* Loop while we receive data */
 		while (recvFlag) {
@@ -85,7 +92,7 @@ Void networkFncRove(UArg arg0, UArg arg1)
 		        	System_printf("Socket recv failed\n");
 		        	//todo
 		            fdClose(clientfd);
-		            recvFlag = FALSE;
+		            recvFlag = false;
 		            Task_exit();
 		            return;
 		     }//endif
