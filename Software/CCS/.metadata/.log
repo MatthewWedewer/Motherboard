@@ -4602,3 +4602,13 @@ java.nio.channels.ClosedByInterruptException
 !ENTRY com.ti.ccstudio.debug 1 0 2015-01-13 14:13:52.465
 !MESSAGE DS_ERROR: Error connecting to the target:
 Frequency is out of range.
+!SESSION 2015-01-14 13:47:29.056 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-01-14 13:47:32.725
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

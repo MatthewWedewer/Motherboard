@@ -41,7 +41,7 @@
 Software/CCS/Debug/
 Software/CCS/Release/
 Software/CCS/.launches/
-Software/CCS/.config/
+# Software/CCS/.config/
 
 # Ignore Windows .db files
 *.db

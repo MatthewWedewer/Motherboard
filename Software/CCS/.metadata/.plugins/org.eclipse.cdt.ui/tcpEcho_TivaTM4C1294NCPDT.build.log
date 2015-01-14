@@ -1,7 +1,13 @@
 
-**** Build of configuration Debug for project tcpEcho_TivaTM4C1294NCPDT ****
+**** Clean-only build of configuration Debug for project tcpEcho_TivaTM4C1294NCPDT ****
 
-"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
-gmake: Nothing to be done for `all'.
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "tcpEcho_TivaTM4C1294NCPDT.out"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "tcpEcho_TivaTM4C1294NCPDT.hex" 
+Could Not Find C:\Users\me\Documents\GitHub\Motherboard\Software\CCS\tcpEcho_TivaTM4C1294NCPDT\Debug\tcpEcho_TivaTM4C1294NCPDT.hex
+RMDIR /S/Q  "configPkg\" 
+DEL /F "EK_TM4C1294XL.pp" "networkRove.pp" "tcpEcho.pp" 
+DEL /F "EK_TM4C1294XL.obj" "networkRove.obj" "tcpEcho.obj" 
+'Finished clean'
+' '
 
 **** Build Finished ****
